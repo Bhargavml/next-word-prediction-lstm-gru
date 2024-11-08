@@ -1,0 +1,13 @@
+prefix=/Users/bhargav/Documents/Bhargav/Projects/next-word-prediction-lstm-gru/venv
+exec_prefix=/Users/bhargav/Documents/Bhargav/Projects/next-word-prediction-lstm-gru/venv
+libdir=/Users/bhargav/Documents/Bhargav/Projects/next-word-prediction-lstm-gru/venv/lib
+sharedlibdir=/Users/bhargav/Documents/Bhargav/Projects/next-word-prediction-lstm-gru/venv/lib
+includedir=/Users/bhargav/Documents/Bhargav/Projects/next-word-prediction-lstm-gru/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
